@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vermelho Celestial</title>
+    <link rel="icon" href="/app/img/ICON.jpg">
+    <meta name="author" content="Vermelho Celestial" />
+    <meta name="keywords"
+      content="Vermelho Celestial" />
+    <meta name="De modo íntimo, sofisticada ❤️✨"
+      content="" />
+    <link rel="stylesheet" href="/app/src/css/style.css">
+    <link rel="stylesheet" href="/app/src/css/shopping.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <a href="javascript:;" class="btn" style="--order: 1;">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+
+    <label class="menu">
+        <ul class="menu__list">
+            <li class="menu__item">
+                <a href="/app/pages/shopping.html" alt="" class="menu__link">Loja</a>
+            </li>
+        </ul>
+    </label>
+
+    <header class="about" id="about">
+        <div class="wrapper flex flex-ai-c">
+            <!--
+            <div class="nav__logo grid grid-pc-c">
+                <a href="./index.html" aria-label="logo">
+                    <img src="./app/img/icons/bee.png" alt="logo">
+                </a>
+            </div>
+            -->
+            <div id="nav">
+                <h3>VERMELHO</b><span>CELESTIAL</span></h3>
+            </div>
+            <ul class="nav__list flex flex-ai-c ml-auto">
+                <li class="nav__item" style="--order: 3;">
+                    <a href="/app/pages/bio.html" alt="" class="nav__link">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div id="main">
+        <div id="page">
+            <video autoplay muted loop id="myVideo">
+                <source src="./app/img/background.mp4" type="video/mp4">
+            </video>
+            <div id="loop">
+                <h1>VERMELHO<span>CELESTIAL</span>VERMELHO<span>CELESTIAL</span></h1>
+                <h1>VERMELHO<span>CELESTIAL</span>VERMELHO<span>CELESTIAL</span></h1>
+                <h1>VERMELHO<span>CELESTIAL</span>VERMELHO<span>CELESTIAL</span></h1>
+            </div>
+            <canvas></canvas>
+        </div>
+        <div class="container">
+            <div class="image fade">
+                <img src="/app/img/angel002.jpg" alt="angel" width="375px" height="375px"  />
+            </div>
+            <div class="image fade">
+                <img src="/app/img/madeleine002.jpg" alt="madeleine" width="375px" height="375px"  />
+            </div>
+            <div class="image fade">
+                <img src="/app/img/heavenly002.jpg" alt="heavenly" width="375px" height="375px"  />
+            </div>
+            <div class="image fade">
+                <img src="/app/img/heavenly004.jpg" alt="heavenly" width="375px" height="375px"  />
+            </div>
+
+            <!-- Buttons -->
+
+            <i id="prev" onclick="show_slide(-1)" class="fas fa-chevron-left"></i>
+            <i id="next" onclick="show_slide(1)" class="fas fa-chevron-right"></i>
+
+            <!-- Dots in a row -->
+
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <main class="main bd-grid">
+            <article class="card">
+                <div class="card__img">
+                    <a href="https://www.instagram.com/p/C1GcFRNtM5P/">
+                        <img src="/app/img/angel001.jpg" alt="">
+                    </a>
+                </div>
+                <div class="card__name">
+                    <p>ANGEL</p>
+                </div>
+                <div class="card__precis">
+                    
+                    <div>
+                        <span class="card__preci card__preci--before"></span>
+                        <span class="card__preci card__preci--now">R$60,00</span>
+                    </div>
+                    <a href="https://buy.stripe.com/14k16q7Vu8zF7Re28A" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__img">
+                    <a href="https://www.instagram.com/p/C1ZullbrWey/">
+                        <img src="/app/img/madeleine001.jpg" alt="" height="180px">
+                    </a>
+                </div>
+                <div class="card__name">
+                    <p>MADELEINE</p>
+                </div>
+                <div class="card__precis">
+                    <div>
+                        <span class="card__preci card__preci--before"></span>
+                        <span class="card__preci card__preci--now">R$50,00</span>
+                    </div>
+                    <a href="https://buy.stripe.com/6oE16qfnW9DJ4F29B4" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__img">
+                    <a href="https://www.instagram.com/p/C1ZvXhyr6lB/">
+                        <img src="/app/img/heavenly001.jpg" alt="">
+                    </a>
+                </div>
+                <div class="card__name">
+                    <p>HEAVENLY</p>
+                </div>
+                <div class="card__precis">
+                    
+                    <div>
+                        <span class="card__preci card__preci--before"></span>
+                        <span class="card__preci card__preci--now">R$70.00</span>
+                    </div>
+                    <a href="https://buy.stripe.com/00gg1k0t2dTZ1sQ5kN" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+        </main>
+
+        <!-- ICONS -->
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        <script src="/app/src/js/script.js"></script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/app/src/js/script.js"></script>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <a href="/bio.html">
+            <p>&copy; 2024 Vermelho Celestial. Todos os direitos reservados.</p>
+        </a>
+    </div>
+</footer>
+</html>
