@@ -80,7 +80,7 @@ a{
     padding: 1.5rem 2rem;
     border-radius: 1rem;
     overflow: hidden;
-    bottom: 64px;
+    bottom: 32px;
 }
 article:nth-child(1){
     background-color: var(--first-color);
